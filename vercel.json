@@ -1,5 +1,5 @@
 {
-  "redirects": [{"source": "/recon",       "destination": "/welcome",       "permanent": true     }
+  "redirects": [
 ],
   "rewrites": [
     {
