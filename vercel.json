@@ -1,8 +1,11 @@
 {
-  "routes": [
+  "redirects": [{"source": "/recon",       "destination": "/welcome",       "permanent": true     }
+],
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "https://webarly.com/$1"
- }
+      "source": "/(.*)",
+      "destination": "https://webarly.com/$1"
+    }
   ]
 }
+    
